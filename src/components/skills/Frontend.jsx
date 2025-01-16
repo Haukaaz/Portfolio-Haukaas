@@ -8,10 +8,10 @@ const Frontend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i class='bx bxl-html5'></i>
+            <i class='bx bxl-vuejs'></i>
 
             <div>
-              <h3 className="skills__name">HTML</h3>
+              <h3 className="skills__name">Vue.js</h3>
               <span className="skills__level">Grunnleggende</span>
             </div>
           </div>

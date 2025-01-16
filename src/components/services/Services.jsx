@@ -19,7 +19,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Produkt <br /> Designer
             </h3>
           </div>
 
@@ -31,44 +31,44 @@ const Services = () => {
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Produkt Designer</h3>
               <p className="services__modal-description">
-                Tjeneste med mer enn 3 års erfaring. Providing quality work to clients and companies.
+                Tjeneste med mer enn 3 års erfaring.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Jeg utvikler brukergrensesnittet.
+                    Brukerundersøkelser: Gjennomfører undersøkelser slik at designbeslutninger kan tas basert på innsikt.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Nettside utvikling.
+                  Prototyper: Lager visuelle representasjoner av produktideer for å teste funksjonalitet og brukerflyt.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Jeg lager ux element interaksjonene.
+                    UI/UX: Designer brukergrensesnittet og sørger for en sømløs brukeropplevelse på tvers av alle plattformer.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Jeg hjelper bedriftens merkevare.
+                    Designsystemer: Utvikler gjenbrukbare komponenter for å sikre konsistens  gjennom produktet.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design og modeller av produkter for bedrifter.
+                    Samarbeid med utviklingsteam: Jobber tett med ingeniører for å sikre at designene er gjennomførbare.
                   </p>
                 </li>
               </ul>
@@ -94,42 +94,42 @@ const Services = () => {
 
               <h3 className="services__modal-title">Ui/Ux Designer</h3>
               <p className="services__modal-description">
-                Tjeneste med mer enn 3 års erfaring. Providing quality work to clients and companies.
+                Tjeneste med mer enn 3 års erfaring.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Jeg utvikler brukergrensesnittet.
+                    Brukerflytsdiagrammer: Hjelper til med å visualisere og optimalisere brukerreisen.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Nettside utvikling.
+                  Wireframes: Viser layout og funksjonalitet av produktet før mer detaljerte designarbeid påbegynnes.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Jeg lager ux element interaksjonene.
+                  Interaktive prototyper: Designer klikkbare prototyper som simulerer hvordan produktet vil fungere
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Jeg hjelper bedriftens merkevare.
+                  Brukertesting: Identifisere områder som kan forbedres for å sikre en positiv brukeropplevelse.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design og modeller av produkter for bedrifter.
+                    UI-design: Nøye planlegging for å lage et estetisk tiltalende og funksjonelt design.
                   </p>
                 </li>
               </ul>
@@ -141,7 +141,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Visuell <br /> Designer
             </h3>
           </div>
 
@@ -153,44 +153,44 @@ const Services = () => {
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Visuell Designer</h3>
               <p className="services__modal-description">
-                Tjeneste med mer enn 3 års erfaring. Providing quality work to clients and companies.
+                Tjeneste med mer enn 3 års erfaring.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Jeg utvikler brukergrensesnittet.
+                    Visuell Identitet: Inkludert logo, farger, typografi og visuelle stiler som gjenspeiler merkevaren.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Nettside utvikling.
+                    Grafisk Design: Skaper grafiske elementer som ikoner, illustrasjoner, bannere.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Jeg lager ux element interaksjonene.
+                    Layout og Komposisjon: For å sikre at informasjon presenteres på en klar og estetisk tiltalende måte.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Jeg hjelper bedriftens merkevare.
+                    Markedsføringsmateriell: Designer annonser, kampanjemateriell og annet markedsføringsinnhold
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design og modeller av produkter for bedrifter.
+                  Interaktivt Design: For å forbedre brukerens visuelle opplevelse og interaksjon med produktet.
                   </p>
                 </li>
               </ul>

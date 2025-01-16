@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./qualification.css"
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
   
   const toggleTab = (index) => {
     setToggleState(index)
@@ -14,12 +14,12 @@ const Qualification = () => {
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
-          <div className={toggleState === 1 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(1)}>
-            <i className="ui uil-graduation-cap qualification__icon"></i> Education
+          <div className={toggleState === 2 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(2)}>
+            <i className="ui uil-briefcase-alt qualification__icon"></i> Erfaring
           </div>
 
-          <div className={toggleState === 2 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(2)}>
-            <i className="ui uil-briefcase-alt qualification__icon"></i> Experience
+          <div className={toggleState === 1 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(1)}>
+            <i className="ui uil-graduation-cap qualification__icon"></i> Utdanning
           </div>
         </div>
 
@@ -27,10 +27,10 @@ const Qualification = () => {
           <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
+                <h3 className="qualification__title">Allcode - Web Utvikling</h3>
+                <span className="qualification__subtitle">Sverige - Kurs</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2023 - 2025
                 </div>
               </div>
 
@@ -49,54 +49,54 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
+                <h3 className="qualification__title">Teknologi & Forskningslære</h3>
+                <span className="qualification__subtitle">Norge - Videregående</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2018 - 2020
                 </div>
               </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
             </div>
 
             <div className="qualification__data">
-              <div></div>
+              <div>
+                <h3 className="qualification__title">Spesiell studiekompetanse</h3>
+                <span className="qualification__subtitle">Norge - Videregående</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2017 - 2020
+                </div>
+              </div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2018
-                </div>
               </div>
             </div>
           </div>
 
           <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
             <div className="qualification__data">
+              <div></div>
+
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
-                <span className="qualification__subtitle">Microsoft - Spain</span>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Vue.js</h3>
+                <span className="qualification__subtitle">Kurs</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2024 - Nåtid
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">NextJS</h3>
+                <span className="qualification__subtitle">Kurs</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2024 - Nåtid
                 </div>
               </div>
 
@@ -115,26 +115,139 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">Apple Inc - Spain</span>
+                <h3 className="qualification__title">TypeScript</h3>
+                <span className="qualification__subtitle">Kurs</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2023 - Nåtid
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
+                <h3 className="qualification__title">React</h3>
+                <span className="qualification__subtitle">Kurs</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2022 - Nåtid
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">JavaScript</h3>
+                <span className="qualification__subtitle">Kurs</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2021 - Nåtid
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">TanStack Query</h3>
+                <span className="qualification__subtitle">Grunnleggende</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2023 - 2024
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">ORMs & Prisma</h3>
+                <span className="qualification__subtitle">Grunnleggende</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Databaser & SQL</h3>
+                <span className="qualification__subtitle">Grunnleggende</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Express JS</h3>
+                <span className="qualification__subtitle">Grunnleggende</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Tailwind</h3>
+                <span className="qualification__subtitle">Avansert</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">HTML & CSS</h3>
+                <span className="qualification__subtitle">Kurs</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                </div>
               </div>
             </div>
           </div>

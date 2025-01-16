@@ -11,9 +11,9 @@
 }
 
 .testimonial__img {
-  width: 60px;
-  border-radius: 3rem;
-  margin-bottom: var(--mb-1);
+  width: 500px;
+  height: 150px;
+  border-radius: 1rem;
 }
 
 .testimonial__name {
@@ -42,7 +42,13 @@
     width: initial;
   }
 
+  .testimonial__img {
+    width: initial;
+  }
+
   .testimonial__card {
     padding: 1.25rem 1.5rem;
   }
 }
+
+

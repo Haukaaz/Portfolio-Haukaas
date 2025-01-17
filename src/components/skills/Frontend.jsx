@@ -12,7 +12,7 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills__name">Vue.js</h3>
-              <span className="skills__level">Grunnleggende</span>
+              <span className="skills__level">Mestrer</span>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills__name">JavaScript</h3>
-              <span className="skills__level">Grunnleggende</span>
+              <span className="skills__level">Mestrer</span>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills__name">TypeScript</h3>
-              <span className="skills__level">Grunnleggende</span>
+              <span className="skills__level">Mestrer</span>
             </div>
           </div>
 

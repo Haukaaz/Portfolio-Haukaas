@@ -33,7 +33,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Produkt Designer</h3>
               <p className="services__modal-description">
-                Tjeneste med mer enn 3 års erfaring.
+                Tjeneste med mer enn 2 års erfaring.
               </p>
 
               <ul className="services__modal-services grid">
@@ -94,7 +94,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Ui/Ux Designer</h3>
               <p className="services__modal-description">
-                Tjeneste med mer enn 3 års erfaring.
+                Tjeneste med mer enn 2 års erfaring.
               </p>
 
               <ul className="services__modal-services grid">
@@ -155,7 +155,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Visuell Designer</h3>
               <p className="services__modal-description">
-                Tjeneste med mer enn 3 års erfaring.
+                Tjeneste med mer enn 2 års erfaring.
               </p>
 
               <ul className="services__modal-services grid">
